@@ -81,6 +81,10 @@ Answer: The best way to learn programming is a mix of structured learning and ha
 Waiting 87.3 seconds before next question...
 ```
 
+Hyperbolic Dashboard output: https://app.hyperbolic.xyz/
+![image](https://github.com/user-attachments/assets/be2fce45-ba0f-498e-9b94-ee63aa680633)
+
+
 ## Notes
 * The API key in the code is a placeholder. You’ll need to sign up at [Hyperbolic Labs](https://app.hyperbolic.xyz/) to get your own.
 * Be mindful of API usage limits and costs depending on your Hyperbolic Labs plan.
