@@ -29,7 +29,7 @@ This repository contains a simple automated chatbot built using the [Hyperbolic 
    ```
 2. **Clone the Repository**
    ```bash
-   git clone https://github.com/0xmoei/chatbot-app.git
+   git clone https://github.com/Gmhax/chatbot-app.git
    cd chatbot-app
    ```
 3. **Install Dependencies**
