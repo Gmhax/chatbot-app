@@ -6,6 +6,10 @@ This repository contains a simple automated chatbot built using the [Hyperbolic 
 * This project uses their language model (`meta-llama/Meta-Llama-3.1-8B-Instruct`) to generate responses to a variety of questions, showcasing the power of their tools for developers.
 * Check out their [official documentation](https://docs.hyperbolic.xyz) for more details.
 
+## VPS 1 NEEDED You can purchase it here: https://contabo.com/en/vps/
+![image](https://github.com/user-attachments/assets/99553649-06da-41b2-b7da-c8d510475ae8)
+
+
 ## Features
 - Contains a list of 100 unique questions on diverse topics.
 - Randomly selects and asks questions without repetition.
@@ -36,19 +40,32 @@ This repository contains a simple automated chatbot built using the [Hyperbolic 
    ```
 4. **Configure the API Key**
 
-Replace the `YOUR_API_KEY_HERE` in `chatbot.py` with your own [Hyperbolic API Key](https://app.hyperbolic.xyz/settings):
-   ```bash
+Replace the `YOUR_API_KEY_HERE` in `chatbot.py` with your own [Hyperbolic API Key]:
+- Get Hyperbolic API Key
+- Sign Up or Log In at https://app.hyperbolic.xyz/settings
+- Go to Settings → API Keys
+- Create/copy your API key
+
+```bash
 nano chatbot.py
    ```
+
+## Create Session
+  ```bash
+   screen -S Hyper
+   ```
+
 5. **Run the Chatbot**
 
 Execute the script to start the chatbot:
    ```bash
    python3 chatbot.py
-   ```
-* You can enter `screen -S chat` before running it to run the script on a minimizable screen in background.
-* To minimize screen: `CTRL+A+D`
-* To kill screen: `Ctrl+C` or command: `screen -XS chat quit`
+   ``` 
+
+
+## Detach Session: PRESS CTRL A+D
+
+
 
 ## Usage
 Once running, the chatbot will:
