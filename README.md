@@ -49,6 +49,7 @@ Replace the `YOUR_API_KEY_HERE` in `chatbot.py` with your own [Hyperbolic API Ke
 ```bash
 nano chatbot.py
    ```
+![image](https://github.com/user-attachments/assets/90475511-b1ed-426e-a060-953aab5c256d)
 
 ## Create Session
   ```bash
