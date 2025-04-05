@@ -73,7 +73,7 @@ Once running, the chatbot will:
 * Print each of the 100 questions one by one.
 * Fetch and display answers from the Hyperbolic Labs API.
 * Pause for a random interval (60-120 seconds) between questions.
-* Stop after completing all 100 questions.
+
 
 Example output:
 ```
