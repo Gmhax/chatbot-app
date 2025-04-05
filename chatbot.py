@@ -9,7 +9,7 @@ HEADERS = {
     "Authorization": "Bearer YOUR_API_KEY_HERE"
 }
 
-# List of 100 unique questions
+# List of 100 questions
 questions = [
     "What's the best way to learn programming?",
     "How does quantum computing work?",
@@ -112,9 +112,6 @@ questions = [
     "What’s the future of renewable energy?"
 ]
 
-# Verify we have 100 questions
-print(f"Total questions loaded: {len(questions)}")
-
 # Function to send API request
 def send_chat_request(question):
     data = {
@@ -142,19 +139,13 @@ def send_chat_request(question):
 # Main bot loop
 def run_chat_bot():
     print("Starting automated chat bot...")
-    available_questions = questions.copy()  # Work with a copy to preserve original list
-    
-    for i in range(100):  # Fixed to 100 since we have exactly 100 questions
-        if not available_questions:
-            print("Ran out of questions unexpectedly!")
-            break
-        
-        # Pick and remove a random question to avoid repetition
-        question = random.choice(available_questions)
-        available_questions.remove(question)
+
+    while True:  # Infinite loop
+        # Pick a random question
+        question = random.choice(questions)
         
         # Send request and print results
-        print(f"\nQuestion {i + 1}: {question}")
+        print(f"\nQuestion: {question}")
         answer = send_chat_request(question)
         print(f"Answer: {answer}")
         
@@ -162,8 +153,6 @@ def run_chat_bot():
         delay = random.uniform(60, 120)
         print(f"Waiting {delay:.1f} seconds before next question...")
         time.sleep(delay)
-    
-    print("\nCompleted 100 questions!")
 
 # Run the bot
 if __name__ == "__main__":
