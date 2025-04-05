@@ -43,7 +43,7 @@ This repository contains a simple automated chatbot built using the [Hyperbolic 
 Replace the `YOUR_API_KEY_HERE` in `chatbot.py` with your own [Hyperbolic API Key]:
 - Get Hyperbolic API Key
 - Sign Up or Log In at https://app.hyperbolic.xyz/settings
-- Go to Settings → API Keys
+- Go to Settings → Verify phone number →  API Keys
 - Create/copy your API key
 
 ```bash
